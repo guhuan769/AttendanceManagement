@@ -1,0 +1,132 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Attendance</name>
+    </assembly>
+    <members>
+        <member name="T:Attendance.Controllers.AttendanceCollectController">
+            <summary>
+            考勤汇总
+            </summary>
+        </member>
+        <member name="F:Attendance.Controllers.AttendanceCollectController.concurrentDic">
+            <summary>
+            出差补贴表仓库
+            </summary>
+        </member>
+        <member name="F:Attendance.Controllers.AttendanceCollectController._redisCacheManager">
+            <summary>
+            Reids
+            </summary>
+        </member>
+        <member name="M:Attendance.Controllers.AttendanceCollectController.#ctor(Attendance.core.Common.Redis.IRedisCacheManager)">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="M:Attendance.Controllers.AttendanceCollectController.TravelAllowanceAdd(System.String,System.String,System.Collections.Generic.List{Attendance.Model.TravelAllowanceTable})">
+            <summary>
+            新增出差明细
+            </summary>
+            <param name="Status">Delete:删除，Update:更新,Post :新增 查询 默认值:Post</param>
+            <param name="RedisName">Reids Key 默认:RedisTravelAllowance </param>
+            <param name="travelAllowanceTables"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Attendance.Controllers.BaseController">
+            <summary>
+            自定义模板
+            用于解决swagger文档没有操作范文的定义
+            </summary>
+        </member>
+        <member name="T:Attendance.Controllers.TestController">
+            <summary>
+            测试求和
+            </summary>
+        </member>
+        <member name="M:Attendance.Controllers.TestController.Sum(System.Int32,System.Int32)">
+            <summary>
+            求和
+            </summary>
+            <param name="i"></param>
+            <param name="j"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Attendance.Controllers.UserController">
+            <summary>
+            测试管理
+            </summary>
+        </member>
+        <member name="M:Attendance.Controllers.UserController.Redis(System.Int32)">
+            <summary>
+            测试Redis
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Attendance.Controllers.UserController.User(Attendance.Model.User)">
+            <summary>
+            获取User实体
+            </summary>
+            <param name="user"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Attendance.Controllers.UserController.Admin">
+            <summary>
+            需要Admin权限
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Attendance.Controllers.UserController.SystemAndAdmin">
+            <summary>
+            需要System和Admin权限
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Attendance.Controllers.UserController.ParseToken">
+            <summary>
+            解析Token
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Attendance.Controllers.UserController.System">
+            <summary>
+            需要System权限
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Attendance.Controllers.UserController.GetUser(System.Int32)">
+            <summary>
+            根据id获取数据
+            </summary>
+            <param name="id">参数id</param>
+            <returns></returns>
+        </member>
+        <member name="M:Attendance.Controllers.UserController.Add(Attendance.Model.User)">
+            <summary>
+            添加数据
+            </summary>
+            <param name="id">参数id</param>
+            <returns></returns>
+        </member>
+        <member name="M:Attendance.Controllers.UserController.Update(Attendance.Model.User)">
+            <summary>
+            更新数据
+            </summary>
+            <param name="id">参数id</param>
+            <returns></returns>
+        </member>
+        <member name="M:Attendance.Controllers.UserController.Delete(System.Object[])">
+            <summary>
+            删除数据
+            </summary>
+            <param name="id">参数id</param>
+            <returns></returns>
+        </member>
+        <member name="M:Attendance.Startup.ConfigureContainer(Autofac.ContainerBuilder)">
+            <summary>
+            用来配置Autofac 服务容器
+            </summary>
+            <param name="builder"></param>
+        </member>
+    </members>
+</doc>

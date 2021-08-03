@@ -1,0 +1,1 @@
+redis windows支持32bit和64bit，自己实际情况选择，都是windows环境的，Redis是一个key-value存储系统。Redis的出现，很大程度补偿了memcached这类key/value存储的不足，在部 分场合可以对关系数据库起到很好的补充作用。

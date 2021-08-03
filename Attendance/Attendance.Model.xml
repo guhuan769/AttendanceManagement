@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AttendanceRESTful.Models</name>
+    </assembly>
+    <members>
+        <member name="T:AttendanceRESTful.Models.User">
+            <summary>
+            用户表
+            </summary>
+        </member>
+        <member name="P:AttendanceRESTful.Models.User.Id">
+            <summary>
+            id
+            </summary>
+        </member>
+        <member name="P:AttendanceRESTful.Models.User.Name">
+            <summary>
+            姓名
+            </summary>
+        </member>
+        <member name="P:AttendanceRESTful.Models.User.Age">
+            <summary>
+            年龄
+            </summary>
+        </member>
+    </members>
+</doc>

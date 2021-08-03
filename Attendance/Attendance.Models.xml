@@ -1,0 +1,132 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Attendance.Model</name>
+    </assembly>
+    <members>
+        <member name="T:Attendance.Model.TokenModel">
+            <summary>
+            令牌
+            </summary>
+        </member>
+        <member name="P:Attendance.Model.TokenModel.Uid">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:Attendance.Model.TokenModel.Role">
+            <summary>
+            角色
+            </summary>
+        </member>
+        <member name="T:Attendance.Model.TravelAllowanceTable">
+            出差补贴明细表
+        </member>
+        <member name="F:Attendance.Model.TravelAllowanceTable.travelId">
+            id
+        </member>
+        <member name="F:Attendance.Model.TravelAllowanceTable.staffId">
+            员工ID
+        </member>
+        <member name="F:Attendance.Model.TravelAllowanceTable.staffName">
+            员工姓名
+        </member>
+        <member name="F:Attendance.Model.TravelAllowanceTable.travelTime">
+            出差日期
+        </member>
+        <member name="F:Attendance.Model.TravelAllowanceTable.travelDaty">
+            出差天数
+        </member>
+        <member name="F:Attendance.Model.TravelAllowanceTable.workTravelDay">
+            工作日出差天数
+        </member>
+        <member name="F:Attendance.Model.TravelAllowanceTable.everyDaySubsidyAmount">
+            每日补贴金额
+        </member>
+        <member name="F:Attendance.Model.TravelAllowanceTable.countSubsiyMoney">
+            总补贴金额
+        </member>
+        <member name="F:Attendance.Model.TravelAllowanceTable.remarks">
+            备注
+        </member>
+        <member name="F:Attendance.Model.TravelAllowanceTable.executiveDirector">
+            主管
+        </member>
+        <member name="P:Attendance.Model.TravelAllowanceTable.TravelId">
+            <summary>
+            /// id
+            </summary>
+        </member>
+        <member name="P:Attendance.Model.TravelAllowanceTable.StaffId">
+            <summary>
+            员工ID
+            </summary>
+        </member>
+        <member name="P:Attendance.Model.TravelAllowanceTable.StaffName">
+            <summary>
+            员工姓名
+            </summary>
+        </member>
+        <member name="P:Attendance.Model.TravelAllowanceTable.TravelTime">
+            <summary>
+            出差日期
+            </summary>
+        </member>
+        <member name="P:Attendance.Model.TravelAllowanceTable.TravelDaty">
+            <summary>
+            出差天数
+            </summary>
+        </member>
+        <member name="P:Attendance.Model.TravelAllowanceTable.WorkTravelDay">
+            <summary>
+            工作日出差天数
+            </summary>
+        </member>
+        <member name="P:Attendance.Model.TravelAllowanceTable.EveryDaySubsidyAmount">
+            <summary>
+            每日补贴金额
+            </summary>
+        </member>
+        <member name="P:Attendance.Model.TravelAllowanceTable.CountSubsiyMoney">
+            <summary>
+            总补贴金额
+            </summary>
+        </member>
+        <member name="P:Attendance.Model.TravelAllowanceTable.Remarks">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:Attendance.Model.TravelAllowanceTable.ExecutiveDirector">
+            <summary>
+            主管
+            </summary>
+        </member>
+        <member name="T:Attendance.Model.User">
+            <summary>
+            用户表
+            </summary>
+        </member>
+        <member name="P:Attendance.Model.User.UserId">
+            <summary>
+            Desc:用户ID
+            Default:
+            Nullable:False
+            </summary>           
+        </member>
+        <member name="P:Attendance.Model.User.UserName">
+            <summary>
+            Desc:用户名
+            Default:
+            Nullable:True
+            </summary>           
+        </member>
+        <member name="P:Attendance.Model.User.Age">
+            <summary>
+            Desc:年龄
+            Default:
+            Nullable:True
+            </summary>           
+        </member>
+    </members>
+</doc>

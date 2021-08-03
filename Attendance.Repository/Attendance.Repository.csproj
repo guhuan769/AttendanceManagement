@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SqlSugarCore" Version="5.0.3.4" />
+    <PackageReference Include="StackExchange.Redis" Version="2.2.62" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Attendance.IRepository\Attendance.IRepository.csproj" />
+    <ProjectReference Include="..\AttendanceRESTful.Models\Attendance.Model.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Redis\" />
+  </ItemGroup>
+
+</Project>

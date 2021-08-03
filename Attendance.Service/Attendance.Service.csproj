@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Attendance.IRepository\Attendance.IRepository.csproj" />
+    <ProjectReference Include="..\Attendance.IService\Attendance.IService.csproj" />
+    <ProjectReference Include="..\Attendance.Repository\Attendance.Repository.csproj" />
+  </ItemGroup>
+
+</Project>
