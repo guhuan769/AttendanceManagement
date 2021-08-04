@@ -1,7 +1,5 @@
-﻿using Attendance.Interface;
-using System;
+﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.Composition;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -15,19 +13,15 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Attendance.Plug1
+namespace AttendanceWpf
 {
     /// <summary>
-    /// MainVIew.xaml 的交互逻辑
+    /// MainWindow.xaml 的交互逻辑
     /// </summary>
-    [Export(typeof(IView))]
-    [CustomExportMetadata(0, "Plugin1")]
-    public partial class MainVIew : UserControl,IView
+    public partial class MainWindow : Window
     {
-        [ImportingConstructor]
-        public MainVIew([Import("DataService")] IService service)
+        public MainWindow()
         {
-            this.DataContext = new MainViewModel(service);
             InitializeComponent();
         }
     }

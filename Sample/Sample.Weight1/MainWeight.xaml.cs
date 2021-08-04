@@ -1,4 +1,4 @@
-﻿using Attendance.Interface;
+﻿using Sample.Core;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.Composition;
@@ -15,19 +15,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Attendance.Plug1
+namespace Sample.Weight1
 {
-    /// <summary>
-    /// MainVIew.xaml 的交互逻辑
-    /// </summary>
-    [Export(typeof(IView))]
-    [CustomExportMetadata(0, "Plugin1")]
-    public partial class MainVIew : UserControl,IView
+    [Export(typeof(IWeight))]
+    [CustomExportMetadata(2, "SubMenu", "这是一个字模块")]
+    public partial class MainWeight : UserControl, IWeight
     {
-        [ImportingConstructor]
-        public MainVIew([Import("DataService")] IService service)
+        public MainWeight()
         {
-            this.DataContext = new MainViewModel(service);
             InitializeComponent();
         }
     }

@@ -1,32 +1,17 @@
-﻿using Attendance.Interface;
+﻿using Sample.Core;
 using System;
-using System.Collections.Generic;
 using System.ComponentModel;
 using System.ComponentModel.Composition;
 using System.ComponentModel.Composition.Hosting;
 using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
-namespace AttendanceMefSystem
+namespace Sample
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
-    
-    public partial class MainView : Window
+    public partial class Shell : Window
     {
-
         /// <summary>
         /// 如果使用 [ImportMany(typeof(IView))] 的方式，
         /// 可以省略 Plugins = container.GetExports<IView,IMetadata>();
@@ -35,14 +20,15 @@ namespace AttendanceMefSystem
         public Lazy<IView, IMetadata>[] Plugins { get; private set; }
 
         private CompositionContainer container = null;
-        public MainView()
+
+        public Shell()
         {
             InitializeComponent();
-
+            
             var dir = new DirectoryInfo(AppDomain.CurrentDomain.BaseDirectory);
             if (dir.Exists)
             {
-                var catalog = new DirectoryCatalog(dir.FullName, "Attendance.*.dll");
+                var catalog = new DirectoryCatalog(dir.FullName, "Sample.*.dll");
                 container = new CompositionContainer(catalog);
                 try
                 {
