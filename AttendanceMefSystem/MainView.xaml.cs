@@ -18,7 +18,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace AttendanceMefSystem
+namespace AttendanceClient
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
