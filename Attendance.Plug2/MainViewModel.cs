@@ -1,6 +1,6 @@
 ﻿using GalaSoft.MvvmLight;
 
-namespace Attendance.Plug2
+namespace Attendance.ExportOrImport
 {
     public class MainViewModel : ViewModelBase
     {

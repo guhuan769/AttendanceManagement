@@ -15,13 +15,13 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Attendance.Plug2
+namespace Attendance.ExportOrImport
 {
     /// <summary>
     /// UserControl1.xaml 的交互逻辑
     /// </summary>
     [Export(typeof(IView))]
-    [CustomExportMetadata(0, "Plug2")]
+    [CustomExportMetadata(0, "导入导出")]
     public partial class MainViews : UserControl, IView
     {
         [ImportMany(typeof(IWeight))]
