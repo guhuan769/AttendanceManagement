@@ -1,4 +1,4 @@
-﻿using Attendance.Interface;
+﻿using AttendanceExport.Interface;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.Composition;
@@ -15,19 +15,19 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Attendance.Plug1
+namespace AttendanceExprt.Plug.Im
 {
     /// <summary>
-    /// MainVIew.xaml 的交互逻辑
+    /// MainView.xaml 的交互逻辑
     /// </summary>
     [Export(typeof(IView))]
-    [CustomExportMetadata(0, "Plug1")]
-    public partial class MainVIew : UserControl,IView
+    [CustomExportMetadata(0, "Plug.Im")]
+    public partial class MainView : UserControl, IView
     {
         [ImportingConstructor]
-        public MainVIew([Import("DataService")] IService service)
+        public MainView([Import("DataService")] IService service)
         {
-            this.DataContext = new MainViewModel(service);
+            this.DataContext = new MianViewModel(service);
             InitializeComponent();
         }
     }

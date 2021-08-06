@@ -6,7 +6,7 @@ using System.Windows.Controls;
 namespace Sample.Plugin1
 {
     [Export(typeof(IView))]
-    [CustomExportMetadata(0, "Plugin1")]
+    [CustomExportMetadata(0, "Plugin221")]
     public partial class MainView : UserControl, IView
     {
         [ImportingConstructor]

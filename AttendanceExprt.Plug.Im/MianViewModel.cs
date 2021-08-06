@@ -1,4 +1,4 @@
-﻿using Attendance.Interface;
+﻿using AttendanceExport.Interface;
 using GalaSoft.MvvmLight;
 using GalaSoft.MvvmLight.Command;
 using System;
@@ -7,9 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Attendance.Plug1
+namespace AttendanceExprt.Plug.Im
 {
-    public class MainViewModel : ViewModelBase
+    public class MianViewModel : ViewModelBase
     {
         private readonly IService service;
 
@@ -22,7 +22,7 @@ namespace Attendance.Plug1
 
         private RelayCommand _todoCommand;
 
-        public MainViewModel(IService service)
+        public MianViewModel(IService service)
         {
             this.service = service;
         }
@@ -38,6 +38,5 @@ namespace Attendance.Plug1
                 }));
             }
         }
-
     }
 }
