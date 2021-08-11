@@ -57,7 +57,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample.Weight1", "Sample\Sa
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plug", "Plug", "{E75DFF06-E4D8-42E5-A38E-8AED1591AA6B}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ClientNoCross-Platform", "ClientNoCross-Platform", "{F332EB6E-5B5E-485B-9EB5-8A7F2C2EFC72}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NoCross-Platform", "NoCross-Platform", "{F332EB6E-5B5E-485B-9EB5-8A7F2C2EFC72}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DXApplication1", "DXApplication1\DXApplication1.csproj", "{3D5DF469-0C71-4B59-A08D-0314C744F781}"
 EndProject
@@ -74,6 +74,75 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApi", "WebApi", "{5E883BB0-8A16-4A77-8FCA-D892E2FCAF53}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{AEF8B5B6-FE34-428A-B96C-79C41FFDDB6B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfApp1", "WpfApp1\WpfApp1.csproj", "{B00ADEB7-C9F9-416E-8F49-AFD516E55F69}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "资料", "资料", "{1BECC677-1DD2-4CBB-8A5C-2C306CE674B8}"
+	ProjectSection(SolutionItems) = preProject
+		E:\BaiduNetdiskDownload\Net Core3.0 WebApi\考勤管理系统\考勤管理系统\AttendanceManagement.oom = E:\BaiduNetdiskDownload\Net Core3.0 WebApi\考勤管理系统\考勤管理系统\AttendanceManagement.oom
+		E:\BaiduNetdiskDownload\Net Core3.0 WebApi\考勤管理系统\考勤管理系统\AttendanceManagement.pdb = E:\BaiduNetdiskDownload\Net Core3.0 WebApi\考勤管理系统\考勤管理系统\AttendanceManagement.pdb
+		E:\BaiduNetdiskDownload\Net Core3.0 WebApi\考勤管理系统\考勤管理系统\AttendanceManagement.pdm = E:\BaiduNetdiskDownload\Net Core3.0 WebApi\考勤管理系统\考勤管理系统\AttendanceManagement.pdm
+		E:\BaiduNetdiskDownload\Net Core3.0 WebApi\考勤管理系统\考勤管理系统\AttendanceManagement2.oom = E:\BaiduNetdiskDownload\Net Core3.0 WebApi\考勤管理系统\考勤管理系统\AttendanceManagement2.oom
+		E:\BaiduNetdiskDownload\Net Core3.0 WebApi\考勤管理系统\考勤管理系统\Workspace.sws = E:\BaiduNetdiskDownload\Net Core3.0 WebApi\考勤管理系统\考勤管理系统\Workspace.sws
+		E:\BaiduNetdiskDownload\Net Core3.0 WebApi\考勤管理系统\考勤管理系统\使用说明.txt = E:\BaiduNetdiskDownload\Net Core3.0 WebApi\考勤管理系统\考勤管理系统\使用说明.txt
+		E:\BaiduNetdiskDownload\Net Core3.0 WebApi\考勤管理系统\考勤管理系统\百度网盘下载地址.txt = E:\BaiduNetdiskDownload\Net Core3.0 WebApi\考勤管理系统\考勤管理系统\百度网盘下载地址.txt
+		E:\BaiduNetdiskDownload\Net Core3.0 WebApi\考勤管理系统\考勤管理系统\考勤.rar = E:\BaiduNetdiskDownload\Net Core3.0 WebApi\考勤管理系统\考勤管理系统\考勤.rar
+		E:\BaiduNetdiskDownload\Net Core3.0 WebApi\考勤管理系统\考勤管理系统\考勤导入系统.rar = E:\BaiduNetdiskDownload\Net Core3.0 WebApi\考勤管理系统\考勤管理系统\考勤导入系统.rar
+		E:\BaiduNetdiskDownload\Net Core3.0 WebApi\考勤管理系统\考勤管理系统\表汇总.doc = E:\BaiduNetdiskDownload\Net Core3.0 WebApi\考勤管理系统\考勤管理系统\表汇总.doc
+		E:\BaiduNetdiskDownload\Net Core3.0 WebApi\考勤管理系统\考勤管理系统\软件学堂-提供最安全的pc软件_免费Mac软件和最热门的游戏下载.url = E:\BaiduNetdiskDownload\Net Core3.0 WebApi\考勤管理系统\考勤管理系统\软件学堂-提供最安全的pc软件_免费Mac软件和最热门的游戏下载.url
+		E:\BaiduNetdiskDownload\Net Core3.0 WebApi\考勤管理系统\考勤管理系统\需求文档.txt = E:\BaiduNetdiskDownload\Net Core3.0 WebApi\考勤管理系统\考勤管理系统\需求文档.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "考勤结果汇总表", "考勤结果汇总表", "{0A51B6B9-D3B9-47EC-8CD9-C6CB847BFB81}"
+	ProjectSection(SolutionItems) = preProject
+		E:\BaiduNetdiskDownload\Net Core3.0 WebApi\考勤管理系统\考勤管理系统\考勤\考勤结果汇总表\2021年X月出差补贴明细表.xlsx = E:\BaiduNetdiskDownload\Net Core3.0 WebApi\考勤管理系统\考勤管理系统\考勤\考勤结果汇总表\2021年X月出差补贴明细表.xlsx
+		E:\BaiduNetdiskDownload\Net Core3.0 WebApi\考勤管理系统\考勤管理系统\考勤\考勤结果汇总表\2021年X月外包人员考勤.xls = E:\BaiduNetdiskDownload\Net Core3.0 WebApi\考勤管理系统\考勤管理系统\考勤\考勤结果汇总表\2021年X月外包人员考勤.xls
+		E:\BaiduNetdiskDownload\Net Core3.0 WebApi\考勤管理系统\考勤管理系统\考勤\考勤结果汇总表\2021年X月工作餐用餐统计.et = E:\BaiduNetdiskDownload\Net Core3.0 WebApi\考勤管理系统\考勤管理系统\考勤\考勤结果汇总表\2021年X月工作餐用餐统计.et
+		E:\BaiduNetdiskDownload\Net Core3.0 WebApi\考勤管理系统\考勤管理系统\考勤\考勤结果汇总表\2021年X月总考勤 .xlsx = E:\BaiduNetdiskDownload\Net Core3.0 WebApi\考勤管理系统\考勤管理系统\考勤\考勤结果汇总表\2021年X月总考勤 .xlsx
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "考勤原始数据", "考勤原始数据", "{21D496EC-53E0-49A0-827E-88D2C8DDD261}"
+	ProjectSection(SolutionItems) = preProject
+		E:\BaiduNetdiskDownload\Net Core3.0 WebApi\考勤管理系统\考勤管理系统\考勤\考勤原始数据\异常考勤统计表 (2).xls = E:\BaiduNetdiskDownload\Net Core3.0 WebApi\考勤管理系统\考勤管理系统\考勤\考勤原始数据\异常考勤统计表 (2).xls
+		E:\BaiduNetdiskDownload\Net Core3.0 WebApi\考勤管理系统\考勤管理系统\考勤\考勤原始数据\异常考勤统计表.xls = E:\BaiduNetdiskDownload\Net Core3.0 WebApi\考勤管理系统\考勤管理系统\考勤\考勤原始数据\异常考勤统计表.xls
+		E:\BaiduNetdiskDownload\Net Core3.0 WebApi\考勤管理系统\考勤管理系统\考勤\考勤原始数据\异常考勤统计表1.xls = E:\BaiduNetdiskDownload\Net Core3.0 WebApi\考勤管理系统\考勤管理系统\考勤\考勤原始数据\异常考勤统计表1.xls
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "打卡机-基础考勤", "打卡机-基础考勤", "{B4D84531-ECB3-4CAD-8CE2-DC63443B96AA}"
+	ProjectSection(SolutionItems) = preProject
+		E:\BaiduNetdiskDownload\Net Core3.0 WebApi\考勤管理系统\考勤管理系统\考勤\考勤原始数据\打卡机-基础考勤\考勤报表 (2).xls = E:\BaiduNetdiskDownload\Net Core3.0 WebApi\考勤管理系统\考勤管理系统\考勤\考勤原始数据\打卡机-基础考勤\考勤报表 (2).xls
+		E:\BaiduNetdiskDownload\Net Core3.0 WebApi\考勤管理系统\考勤管理系统\考勤\考勤原始数据\打卡机-基础考勤\考勤报表.xls = E:\BaiduNetdiskDownload\Net Core3.0 WebApi\考勤管理系统\考勤管理系统\考勤\考勤原始数据\打卡机-基础考勤\考勤报表.xls
+		E:\BaiduNetdiskDownload\Net Core3.0 WebApi\考勤管理系统\考勤管理系统\考勤\考勤原始数据\打卡机-基础考勤\考勤报表1.xls = E:\BaiduNetdiskDownload\Net Core3.0 WebApi\考勤管理系统\考勤管理系统\考勤\考勤原始数据\打卡机-基础考勤\考勤报表1.xls
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "例外情况表", "例外情况表", "{1C568446-4480-4600-8801-A1F6290A48E1}"
+	ProjectSection(SolutionItems) = preProject
+		E:\BaiduNetdiskDownload\Net Core3.0 WebApi\考勤管理系统\考勤管理系统\考勤\考勤原始数据\例外情况表\【审批】出差06.01-06.30.xlsx = E:\BaiduNetdiskDownload\Net Core3.0 WebApi\考勤管理系统\考勤管理系统\考勤\考勤原始数据\例外情况表\【审批】出差06.01-06.30.xlsx
+		E:\BaiduNetdiskDownload\Net Core3.0 WebApi\考勤管理系统\考勤管理系统\考勤\考勤原始数据\例外情况表\【审批】加班06.01-06.30.xlsx = E:\BaiduNetdiskDownload\Net Core3.0 WebApi\考勤管理系统\考勤管理系统\考勤\考勤原始数据\例外情况表\【审批】加班06.01-06.30.xlsx
+		E:\BaiduNetdiskDownload\Net Core3.0 WebApi\考勤管理系统\考勤管理系统\考勤\考勤原始数据\例外情况表\【审批】外出06.01-06.30.xlsx = E:\BaiduNetdiskDownload\Net Core3.0 WebApi\考勤管理系统\考勤管理系统\考勤\考勤原始数据\例外情况表\【审批】外出06.01-06.30.xlsx
+		E:\BaiduNetdiskDownload\Net Core3.0 WebApi\考勤管理系统\考勤管理系统\考勤\考勤原始数据\例外情况表\【审批】请假06.01-06.30.xlsx = E:\BaiduNetdiskDownload\Net Core3.0 WebApi\考勤管理系统\考勤管理系统\考勤\考勤原始数据\例外情况表\【审批】请假06.01-06.30.xlsx
+		E:\BaiduNetdiskDownload\Net Core3.0 WebApi\考勤管理系统\考勤管理系统\考勤\考勤原始数据\例外情况表\外出打卡_日报_20210601-20210630.xlsx = E:\BaiduNetdiskDownload\Net Core3.0 WebApi\考勤管理系统\考勤管理系统\考勤\考勤原始数据\例外情况表\外出打卡_日报_20210601-20210630.xlsx
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "企业微信1-基础考勤", "企业微信1-基础考勤", "{5C587CB2-5677-4E17-9A4F-124E29E91C86}"
+	ProjectSection(SolutionItems) = preProject
+		E:\BaiduNetdiskDownload\Net Core3.0 WebApi\考勤管理系统\考勤管理系统\考勤\考勤原始数据\企业微信1-基础考勤\员工刷卡记录表 (2).xls = E:\BaiduNetdiskDownload\Net Core3.0 WebApi\考勤管理系统\考勤管理系统\考勤\考勤原始数据\企业微信1-基础考勤\员工刷卡记录表 (2).xls
+		E:\BaiduNetdiskDownload\Net Core3.0 WebApi\考勤管理系统\考勤管理系统\考勤\考勤原始数据\企业微信1-基础考勤\员工刷卡记录表.xls = E:\BaiduNetdiskDownload\Net Core3.0 WebApi\考勤管理系统\考勤管理系统\考勤\考勤原始数据\企业微信1-基础考勤\员工刷卡记录表.xls
+		E:\BaiduNetdiskDownload\Net Core3.0 WebApi\考勤管理系统\考勤管理系统\考勤\考勤原始数据\企业微信1-基础考勤\员工刷卡记录表1.xls = E:\BaiduNetdiskDownload\Net Core3.0 WebApi\考勤管理系统\考勤管理系统\考勤\考勤原始数据\企业微信1-基础考勤\员工刷卡记录表1.xls
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "企业微信2-基础考勤", "企业微信2-基础考勤", "{F0293E93-5979-449B-8A85-F9D19AC1759C}"
+	ProjectSection(SolutionItems) = preProject
+		E:\BaiduNetdiskDownload\Net Core3.0 WebApi\考勤管理系统\考勤管理系统\考勤\考勤原始数据\企业微信2-基础考勤\上下班打卡_日报_20210601-20210630.xlsx = E:\BaiduNetdiskDownload\Net Core3.0 WebApi\考勤管理系统\考勤管理系统\考勤\考勤原始数据\企业微信2-基础考勤\上下班打卡_日报_20210601-20210630.xlsx
+		E:\BaiduNetdiskDownload\Net Core3.0 WebApi\考勤管理系统\考勤管理系统\考勤\考勤原始数据\企业微信2-基础考勤\上下班打卡_月报_20210601-20210630.xlsx = E:\BaiduNetdiskDownload\Net Core3.0 WebApi\考勤管理系统\考勤管理系统\考勤\考勤原始数据\企业微信2-基础考勤\上下班打卡_月报_20210601-20210630.xlsx
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tool", "Tool", "{715C957B-DF04-4240-A875-AB14F03916DD}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\socker\Desktop\Redis总结\Redis-x64-3.2.100.zip = C:\Users\socker\Desktop\Redis总结\Redis-x64-3.2.100.zip
+		C:\Users\socker\Desktop\Redis总结\RedisDesktopManager_jb51.rar = C:\Users\socker\Desktop\Redis总结\RedisDesktopManager_jb51.rar
+		C:\Users\socker\Desktop\Redis总结\redis文档.rar = C:\Users\socker\Desktop\Redis总结\redis文档.rar
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -185,6 +254,10 @@ Global
 		{97B994EF-5241-41B9-9F34-C105CD475DAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97B994EF-5241-41B9-9F34-C105CD475DAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97B994EF-5241-41B9-9F34-C105CD475DAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B00ADEB7-C9F9-416E-8F49-AFD516E55F69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B00ADEB7-C9F9-416E-8F49-AFD516E55F69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B00ADEB7-C9F9-416E-8F49-AFD516E55F69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B00ADEB7-C9F9-416E-8F49-AFD516E55F69}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -222,6 +295,14 @@ Global
 		{1685B996-8851-433D-8EB3-E430E1718070} = {F332EB6E-5B5E-485B-9EB5-8A7F2C2EFC72}
 		{D4CF1AE0-033D-4B07-BA4F-D277C02226A0} = {1685B996-8851-433D-8EB3-E430E1718070}
 		{97B994EF-5241-41B9-9F34-C105CD475DAE} = {FE8BF45F-6DC3-46FD-BBB4-F779A6525837}
+		{1BECC677-1DD2-4CBB-8A5C-2C306CE674B8} = {CDDF5CDB-BC07-418A-A5E3-5287D79DCA8D}
+		{0A51B6B9-D3B9-47EC-8CD9-C6CB847BFB81} = {1BECC677-1DD2-4CBB-8A5C-2C306CE674B8}
+		{21D496EC-53E0-49A0-827E-88D2C8DDD261} = {1BECC677-1DD2-4CBB-8A5C-2C306CE674B8}
+		{B4D84531-ECB3-4CAD-8CE2-DC63443B96AA} = {21D496EC-53E0-49A0-827E-88D2C8DDD261}
+		{1C568446-4480-4600-8801-A1F6290A48E1} = {21D496EC-53E0-49A0-827E-88D2C8DDD261}
+		{5C587CB2-5677-4E17-9A4F-124E29E91C86} = {21D496EC-53E0-49A0-827E-88D2C8DDD261}
+		{F0293E93-5979-449B-8A85-F9D19AC1759C} = {21D496EC-53E0-49A0-827E-88D2C8DDD261}
+		{715C957B-DF04-4240-A875-AB14F03916DD} = {1BECC677-1DD2-4CBB-8A5C-2C306CE674B8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EE31A0FD-1FE3-4197-9E22-FA4F062AF5F0}

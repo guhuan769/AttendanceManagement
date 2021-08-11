@@ -1,4 +1,5 @@
 ﻿using Attendance.Interface;
+using AttendanceClient.ViewModel;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -38,6 +39,7 @@ namespace AttendanceClient
         public MainView()
         {
             InitializeComponent();
+            this.DataContext = new MainViewModel();
 
             var dir = new DirectoryInfo(AppDomain.CurrentDomain.BaseDirectory);
             if (dir.Exists)
@@ -70,6 +72,14 @@ namespace AttendanceClient
         {
             container?.Dispose();
             base.OnClosing(e);
+        }
+
+        private void TabMoveLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            if (e.LeftButton == MouseButtonState.Pressed)
+            {
+                this.DragMove();
+            }
         }
     }
 }

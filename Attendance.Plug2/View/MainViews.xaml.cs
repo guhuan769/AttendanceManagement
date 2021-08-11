@@ -21,7 +21,7 @@ namespace Attendance.ExportOrImport
     /// UserControl1.xaml 的交互逻辑
     /// </summary>
     [Export(typeof(IView))]
-    [CustomExportMetadata(0, "导入导出")]
+    [CustomExportMetadata(0, "Export")]
     public partial class MainViews : UserControl, IView
     {
         [ImportMany(typeof(IWeight))]
@@ -44,6 +44,11 @@ namespace Attendance.ExportOrImport
             //    expander.Content = weight.Value;
             //    this.lv.Items.Add(expander);
             //}
+        }
+
+        private void Button_MouseDown(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Login");
         }
     }
 }
