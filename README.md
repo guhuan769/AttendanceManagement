@@ -10,7 +10,7 @@ WebApi
   Redis
   仓储模式
   JWT权限
-  
+  轻型ORM框架 Sqlsugar+异步泛型仓储
 WPF 
-  WEF开发模式
+  MEF开发模式
   控件自定义
