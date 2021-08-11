@@ -24,62 +24,46 @@ namespace AttendanceClient
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    
+
+
     public partial class MainView : Window
     {
 
-        /// <summary>
-        /// 如果使用 [ImportMany(typeof(IView))] 的方式，
-        /// 可以省略 Plugins = container.GetExports<IView,IMetadata>();
-        /// </summary>
-        [ImportMany(typeof(IView))]
-        public Lazy<IView, IMetadata>[] Plugins { get; private set; }
+        private MainViewModel _mainViewModel;
 
-        private CompositionContainer container = null;
         public MainView()
         {
             InitializeComponent();
             this.DataContext = new MainViewModel();
-
-            var dir = new DirectoryInfo(AppDomain.CurrentDomain.BaseDirectory);
-            if (dir.Exists)
+            if (_mainViewModel == null)
             {
-                var catalog = new DirectoryCatalog(dir.FullName, "Attendance.*.dll");
-                container = new CompositionContainer(catalog);
-                try
-                {
-                    container.ComposeParts(this);
-                }
-                catch (CompositionException compositionEx)
-                {
-                    Console.WriteLine(compositionEx.ToString());
-                }
-
-                Plugins.OrderBy(p => p.Metadata.Priority);
-
-                foreach (var item in Plugins)
-                {
-                    this.tab.Items.Add(new TabItem()
-                    {
-                        Header = item.Metadata.Name,
-                        Content = item.Value
-                    });
-                }
+                _mainViewModel = new MainViewModel();
             }
-        }
 
-        protected override void OnClosing(CancelEventArgs e)
-        {
-            container?.Dispose();
-            base.OnClosing(e);
-        }
-
-        private void TabMoveLeftButtonDown(object sender, MouseButtonEventArgs e)
-        {
-            if (e.LeftButton == MouseButtonState.Pressed)
+            foreach (var item in _mainViewModel.Plugins)
             {
-                this.DragMove();
+                this.tab.Items.Add(new TabItem()
+                {
+                    Header = item.Metadata.Name,
+                    Content = item.Value
+                });
             }
+
+        }
+    
+
+    protected override void OnClosing(CancelEventArgs e)
+    {
+        _mainViewModel.container?.Dispose();
+        base.OnClosing(e);
+    }
+
+    private void TabMoveLeftButtonDown(object sender, MouseButtonEventArgs e)
+    {
+        if (e.LeftButton == MouseButtonState.Pressed)
+        {
+            this.DragMove();
         }
     }
+}
 }
