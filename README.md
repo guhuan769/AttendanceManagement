@@ -12,7 +12,20 @@ WebApi
   JWT权限、
   轻型ORM框架 Sqlsugar+异步泛型仓储
   
+  包含库
+    Attendance 接口
+    Attendance.core.Common 工具
+    Attendance.IRepository 仓库接口
+    Attendance.IService  BLL
+    Attendance.Model 实体
+    Attendance.Repository 仓库
+    Attendance.Service   BLL
+  
 WPF 
   MEF开发模式、
   控件自定义 
   (也可以使用第三方框架)
+  
+  库
+  AttendanceClient 客户端
+  Attendance.ExportOrImport(插件 命名规范 Attendance.*.dll)
