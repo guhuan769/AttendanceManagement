@@ -14,12 +14,12 @@ WebApi
   
   包含库
     Attendance 接口
-    Attendance.core.Common 工具
-    Attendance.IRepository 仓库接口
-    Attendance.IService  BLL
-    Attendance.Model 实体
-    Attendance.Repository 仓库
-    Attendance.Service   BLL
+    Attendance.core.Common 工具、
+    Attendance.IRepository 仓库接口、
+    Attendance.IService  BLL、
+    Attendance.Model 实体、
+    Attendance.Repository 仓库、
+    Attendance.Service   BLL、
   
 WPF 
   MEF开发模式、
