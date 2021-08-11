@@ -11,7 +11,7 @@ WebApi
   
   Autofac、
   
-  Redis(建议使用64位，时间充沛的情况可以自行研究32位)
+  Redis(建议使用64位，时间充沛的情况可以自行研究32位)  该方法封装在 Attendance.core.Common 类库中
   
     //获取 Reids 缓存值
     string GetValue(string key);
@@ -38,7 +38,9 @@ WebApi
   
   JWT权限、
   
-  轻型ORM框架 Sqlsugar+异步泛型仓储
+  轻型ORM框架 Sqlsugar+异步泛型仓储 
+  
+    查阅一下框架如何使用
   
   包含库
     Attendance 接口
@@ -69,7 +71,7 @@ WPF
   
   每新增一个插件,使用该方法注册
   
-   public void Register()
+    public void Register()
    
         {
         
