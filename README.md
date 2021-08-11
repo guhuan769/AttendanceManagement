@@ -7,6 +7,8 @@ Windows10 64
 WebApi 
   Swagger、
   
+  //该框架已经集成好无需更改
+  
   Autofac、
   
   Redis(建议使用64位，时间充沛的情况可以自行研究32位)
@@ -63,4 +65,21 @@ WPF
   库
   AttendanceClient 客户端
   
-  Attendance.ExportOrImport(插件 命名规范 Attendance.*.dll)
+  Attendance.ExportOrImport(插件 命名规范 Attendance.*.dll )
+  
+  每新增一个插件,使用该方法注册
+  
+   public void Register()
+   
+        {
+        
+            MessengerInstance.Register<int>(this, "Plugin", obj =>
+            
+            {
+            
+                Number = -obj;
+                
+            });
+            
+        }
+  
